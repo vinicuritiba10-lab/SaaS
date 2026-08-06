@@ -1,25 +1,25 @@
-
 body {
     margin: 0;
     height: 100vh; /* 100% da altura da tela */
-    display:flexbox;
+    display: flex;
+    flex-direction: column; /* Organiza os itens em coluna (um abaixo do outro) */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
     background-color: #090909;
     color: blue;
 }
 
-
-h1{
+h1 {
     text-align: center;
-    top: 100px;
+    margin-bottom: 10px; /* Espaçamento adequado em vez de 'top' */
 }
 
-
-p{
+p {
     text-align: center;
-    top: 100px;
+    margin-bottom: 20px;
 }
 
-.botoes{
-    align-items: center;     /* Centraliza verticalmente */
-    left: 50px;
+.botoes {
+    display: flex;
+    gap: 10px; /* Cria um espaço entre os botões, se houver mais de um */
 }
